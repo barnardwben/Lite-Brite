@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Notable', sans-serif;
+	background: #111;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 800px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+  background: -webkit-linear-gradient(45deg, rgb(228, 41, 41), rgb(27, 223, 230), rgb(200, 234, 10));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#color-picker {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  /* left: 8vw; */
+  /* background-color: aliceblue; */
+}
+
+#mode {
+  position: absolute;
+  top: 92vh;
+  /* left: 80vw; */
+}
+
+#lit {
+ background-color: #ffb;
+}
+
+#drk {
+  background-color: #333030;
+}
+
+
+#reset {
+  margin-top: 5px;
+}
+
+.square {
+	background-color: #1d1d1d;
+	box-shadow: 0 0 2px #000;
+	margin: 2px;
+	width: 16px;
+  height: 16px;
+  border-radius: 50px;
+	transition: .3s ease;
+}
+
+
+
