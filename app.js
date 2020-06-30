@@ -3,7 +3,6 @@ const container = document.getElementById('container');
 const drk = document.getElementById('drk');
 const lit = document.getElementById('lit');
 
-const header = document.getElementById('header');
 
 const rst = document.getElementById('reset');
 
