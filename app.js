@@ -7,10 +7,10 @@ const lit = document.getElementById('lit');
 const rst = document.getElementById('reset');
 
 let colorInput = document.getElementById('farb');
-const SQUARES_NR = 920;
+const circleNum = 920;
 
 
-for(let i = 0; i < SQUARES_NR; i++) {
+for(let i = 0; i < circleNum; i++) {
 	const square = document.createElement('div');
 	square.classList.add('square');
 	
