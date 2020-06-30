@@ -11,30 +11,30 @@ const circleNum = 920;
 
 
 for(let i = 0; i < circleNum; i++) {
-	const square = document.createElement('div');
-	square.classList.add('square');
+	const circle = document.createElement('div');
+	circle.classList.add('circle');
 	
-	square.addEventListener('click', () => {
-		setColorToEl(square);
+	circle.addEventListener('click', () => {
+		setColorToEl(circle);
 	});
 	
-	square.addEventListener('dblclick', () => {
-		removeColorFromEl(square);
+	circle.addEventListener('dblclick', () => {
+		removeColorFromEl(circle);
   });
   
   reset.addEventListener('click', () => { 
-    resetPg(square);
+    resetPg(circle);
   });
 
   lit.addEventListener('click', () => { 
-    liteMode(square)
+    liteMode(circle)
   });
 
   drk.addEventListener('click', () => { 
-    darkMode(square)
+    darkMode(circle)
   });
 	
-	container.appendChild(square);
+	container.appendChild(circle);
 }
 
 
